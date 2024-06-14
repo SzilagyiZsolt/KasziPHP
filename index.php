@@ -16,6 +16,8 @@
     <?php include 'dialog.php'; ?>
     
     <?php include 'gallery.php'; ?>
+
+    <?php include 'programs.php'; ?>
     
     <?php include 'reservation.php'; ?>
     

@@ -1,9 +1,9 @@
-<section id="Faq" class="faq section-bg bgcolor-1">
-    <div class="container" data-aos="fade-up">
-        <div class="section-title">
-            <h1>Gyakori Kérdések</h1>
-            <hr class="hr1">
-        </div>
+<div class="container-fluid faq" id="Faq">
+    <div class="container  faqText" data-aos="fade-up">
+        <hr>
+        <h1>Gyakori Kérdések</h1>
+    </div>
+    <div class="container">
         <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
             <li>
                 <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Hozhatom a házi kedvencemet? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>

@@ -29,3 +29,18 @@ function toggle() {
     var header = document.getElementById('header');
     header.classList.toggle('active');
 };
+
+//Programs
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fade-in');
+            }
+        });
+    });
+
+    document.querySelectorAll('.program').forEach(program => {
+        observer.observe(program);
+    });
+});
