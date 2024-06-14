@@ -1,5 +1,5 @@
 <footer class="container-fluid bg-dark text-white" id="Kapcsolat">
-    <div class="container d-flex justify-content-between row mx-auto py-5">
+    <div class="container-fluid bg-dark d-flex justify-content-between row mx-auto py-5">
         <div class="col-6">
             <!--<img src="images/logomark.png" alt="Logomark">
             <p><a href="privacy.html">Privacy Policy</a></p>-->
