@@ -1,6 +1,5 @@
-<div class="container-fluid gallery-section" id="Gallery">
-    <div class="container-fluid GalleryText">
-        <hr>
+<div class="container-fluid" id="Gallery">
+    <div class="container-fluid gallerypageText">
         <h1>Galéria</h1>
     </div>
     <div class="row gallery-row">

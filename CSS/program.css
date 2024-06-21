@@ -1,0 +1,61 @@
+/*Main*/
+.programsText {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.program-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.program {
+  text-align: center;
+  padding: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.program img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.program h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #000;
+}
+
+.program p {
+  font-size: 16px;
+  color: #555;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/*Page*/
+.programspageText{
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 100px;
+}
+/* Kisebb képernyőkhöz igazítva */
+@media (max-width: 768px) {
+  .programspageText{
+      margin-top: 70px; /* Csökkentett margó kisebb képernyőkhöz */
+  }
+}
+
+@media (max-width: 576px) {
+  .programspageText{
+      margin-top: 50px; /* Még kisebb margó nagyon kis képernyőkhöz */
+  }
+}

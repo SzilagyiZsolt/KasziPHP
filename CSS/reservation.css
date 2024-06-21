@@ -1,0 +1,37 @@
+.et_pb_button, .et_pb_more_button{
+  font-size: 30px !important;
+  color: black !important;
+  text-transform: uppercase !important;
+}
+.et_pb_button{
+  font-weight: 500;
+  padding: 0.3em 1em;
+  line-height: 1.7em !important;
+  background-color: transparent;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border: 2px solid;
+  border-radius: 3px;
+  transition-duration: .2s;
+  transition-property: all !important;
+}
+.et_pb_more_button{
+  display: inline-block !important;
+  text-shadow: none;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+a.et_pb_more_button:after{
+  font-style: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0 0;
+  direction: ltr;
+}
+.et_pb_button_wrapper{
+  text-align: center;
+}

@@ -1,5 +1,5 @@
 <div class="container-fluid faq" id="Faq">
-    <div class="container  faqText" data-aos="fade-up">
+    <div class="container-fluid faqText" data-aos="fade-up">
         <hr>
         <h1>Gyakori Kérdések</h1>
     </div>

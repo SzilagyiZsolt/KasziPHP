@@ -1,0 +1,42 @@
+.d1{
+  padding-top: 100px;
+}
+.dialog1img{
+  width: 759px;
+  height: auto;
+  margin: auto;
+}
+.dialog2img{
+  width: 759px;
+  height: auto;
+  margin: auto;
+  float: right;
+}
+.d1right{
+  background-color: #dcccb6;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 150px;
+}
+.d2left{
+  text-align: right;
+  background-color: #dcccb6;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 150px;
+}
+.d1left{
+  padding: 0px;
+  background-color: #dcccb6;
+}
+.d2right{
+  padding: 0px;
+  background-color: #dcccb6;
+    
+}
+.body{
+  margin: 0;
+  padding: 0;
+}

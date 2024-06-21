@@ -1,0 +1,156 @@
+html{
+  scroll-behavior: smooth;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  transition: .6s;
+  z-index: 10000;
+}
+header.sticky{
+  padding: 5px 100px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+header .logo{
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: .6s;
+}
+header ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li{
+  position: relative;
+  list-style: none;
+}
+header ul li a{
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 1.3em;
+  transition: .6s;
+  text-transform: capitalize;
+}
+li{
+  margin-left: auto;
+  margin-right: auto;
+}
+a:hover{
+  color: #fff;
+  text-shadow:1px 1px 2px rgba(0,0,0,0.4)
+}
+.toggle{
+  display: none;
+}
+.name{
+  text-decoration: none;
+  transition: .6s;
+  color: #000;
+  text-shadow:1px 1px 2px rgba(0,0,0,0.4)
+}
+
+/* NavBarResponsive */
+@media (max-width: 1285px){
+  .toggle{
+      display: block;
+      position: relative;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+  }
+  .toggle::before{
+      content: '';
+      position: absolute;
+      top: 4px;
+      width: 100%;
+      height: 2px;
+      background: #fff;
+      z-index: 1;
+      box-shadow: 0 10px 0 #fff;
+      transition: .5s;
+  }
+  .toggle::after{
+      content: '';
+      position: absolute;
+      bottom: 4px;
+      width: 100%;
+      height: 2px;
+      background: #fff;
+      z-index: 1;
+      transition: .5s;
+  }
+  header.active .toggle::before{
+      top: 14px;
+      transform: rotate(45deg);
+      box-shadow: 0 0 0 #fff;
+  }
+  header.active .toggle::after{
+      bottom: 14px;
+      transform: rotate(-45deg);
+  }
+  header ul{
+      position: absolute;
+      top: 59px;
+      left: 110px;
+      width: 100%;
+      height: calc(100vh);
+      padding: 50px 100px;
+      visibility: hidden;
+      opacity: 0;
+      transition: .5s ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+  }
+  header.active ul{
+      left: 0%;
+      background: #fff;
+      visibility: visible;
+      opacity: 1;
+      transition: .5s ease;
+  }
+  header.active ul li a{
+      margin: 5px 0;
+      font-size: 24px;
+  }
+  header,
+  header.sticky{
+      padding: 5px 50px;
+      border-bottom: 1px solid rgba(0, 0, 0, .1);
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(20px);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+  header.active ul li a{
+      color: #000;
+  }
+}
+#dialog1, .a{
+  text-decoration: none;
+}

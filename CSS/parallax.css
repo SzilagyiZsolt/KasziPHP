@@ -1,0 +1,36 @@
+.dialog-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-lg-6 {
+  flex: 1;
+  padding: 20px;
+}
+
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dialog1img, .dialog2img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.dialog-row {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.dialog-row.show {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -1,0 +1,28 @@
+/*Main*/
+.galleryText{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#gallery{
+  background: #dcccb6;
+}
+
+/*Page*/
+.gallerypageText{
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 100px;
+}
+/* Kisebb képernyőkhöz igazítva */
+@media (max-width: 768px) {
+  .gallerypageText {
+      margin-top: 70px; /* Csökkentett margó kisebb képernyőkhöz */
+  }
+}
+
+@media (max-width: 576px) {
+  .gallerypageText {
+      margin-top: 50px; /* Még kisebb margó nagyon kis képernyőkhöz */
+  }
+}
