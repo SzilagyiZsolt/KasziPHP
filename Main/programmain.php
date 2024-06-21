@@ -20,4 +20,7 @@
             <p>A múzeum kiállításai bemutatják a város és a környék történelmét és kultúráját.</p>
         </div>
     </div>
+    <div class="text-center">
+        <a href="index.php?page=Page/program" class="programbutton btn">További programok</a>
+    </div>
 </div>

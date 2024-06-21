@@ -20,4 +20,7 @@
             <img src="Images/House10.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="House10"/>
         </div>
     </div>
+    <div class="text-center">
+        <a href="index.php?page=Page/gallery" class="btn gallerybutton">További képek</a>
+    </div>
 </div>

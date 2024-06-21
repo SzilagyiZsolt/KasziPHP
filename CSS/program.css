@@ -41,6 +41,21 @@
   transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
+.programbutton{
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0.3em 1em;
+  line-height: 1.7em !important;
+  background-color: transparent;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border: 2px solid;
+  border-radius: 3px;
+  transition-duration: .2s;
+  transition-property: all !important;
+}
+
 /*Page*/
 .programspageText{
   text-align: center;

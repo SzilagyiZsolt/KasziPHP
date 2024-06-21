@@ -4,6 +4,20 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.gallerybutton{
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0.3em 1em;
+  line-height: 1.7em !important;
+  background-color: transparent;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border: 2px solid;
+  border-radius: 3px;
+  transition-duration: .2s;
+  transition-property: all !important;
+}
 #gallery{
   background: #dcccb6;
 }
