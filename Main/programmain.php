@@ -15,9 +15,9 @@
             <p>Kalandmedencék, csúszdák és különféle wellness szolgáltatások várják a látogatókat.</p>
         </div>
         <div class="col-lg-4 col-md-6 mb-4 program">
-            <img src="Images/Museum.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Museum">
-            <h3>Bocskai István Múzeum</h3>
-            <p>A múzeum kiállításai bemutatják a város és a környék történelmét és kultúráját.</p>
+            <img src="Images/Kalandpark.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Adventure Park">
+            <h3>Kalandpark</h3>
+            <p>A kalandpark különböző pályákkal és akadályokkal várja az aktív kikapcsolódásra vágyókat.</p>
         </div>
     </div>
     <div class="text-center">

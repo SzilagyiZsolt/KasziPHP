@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="CSS/parallax.css">
     <link rel="stylesheet" href="CSS/program.css">
     <link rel="stylesheet" href="CSS/reservation.css">
+    <link rel="stylesheet" href="CSS/footer.css">
     <title>Kaszivendégház</title>
 </head>
 <body>

@@ -12,17 +12,22 @@
   margin: auto;
   float: right;
 }
+.d1righttext{
+  text-align: justify;
+}
+.d2lefttext{
+  text-align: justify;
+}
 .d1right{
   background-color: #dcccb6;
-  font-size: 20px;
+  font-size: 25px;
   padding-left: 50px;
   padding-right: 100px;
   padding-top: 150px;
 }
 .d2left{
-  text-align: right;
   background-color: #dcccb6;
-  font-size: 20px;
+  font-size: 25px;
   padding-left: 50px;
   padding-right: 100px;
   padding-top: 150px;
