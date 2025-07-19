@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="CSS/program.css">
     <link rel="stylesheet" href="CSS/reservation.css">
     <link rel="stylesheet" href="CSS/footer.css">
-    <title>Kaszivendégház</title>
+    <title>Kaszi vendégház</title>
 </head>
 <body>
     <?php include 'Main/header.php'; ?>
