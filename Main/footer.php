@@ -4,7 +4,7 @@
             <!--<img src="images/logomark.png" alt="Logomark">
             <p><a href="privacy.html">Privacy Policy</a></p>-->
             <p class="location"><i class="fa-solid fa-location-dot"></i> 4200 Hajdúszoboszló, Álmos u. 13, Magyarország</p>
-            <p><i class="fa-solid fa-envelope"></i> kaszivendekhaz@citromail.com</p>
+            <p><i class="fa-solid fa-envelope"></i> kaszivendeghaz@citromail.hu</p>
             <p><i class="fa-solid fa-phone"></i> 06 30 737 9264</p>
             <!--<p>&COPY; 2025 - All rights reserved</p>-->
         </div>

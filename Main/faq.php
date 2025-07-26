@@ -24,7 +24,7 @@
                 </div>
             </li>
             <li>
-                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Milyen közül van a Kaszi vendégház a strandhoz?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Milyen közel van a Kaszi vendégház a strandhoz?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq4" class="collapse" data-bs-parent=".faq-list">
                     <p>A Kaszi vendégház csupán 350 m távolságra van a legközelebbi strandtól. Minden távolságot légvonalban mérünk. A valódi út hossza ettől eltérhet.</p>
                 </div>
@@ -38,7 +38,7 @@
             <li>
                 <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">A Kaszi vendégház mennyiért kínál szállást?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                    <p>A Kaszi vendégház árai változóak lehetnek, a foglalás feltételeitől függően (pl.: foglalási dátumok, szállodai szabályzat, stb.)</p>
+                    <p>A Kaszi vendégház árai változóak lehetnek, a foglalás feltételeitől függően (pl.: foglalási dátumok, szállodai szabályzat, stb.). Kérjük, emailben kérjen személyre szabott ajánlat</p>
                 </div>
             </li>
         </ul>

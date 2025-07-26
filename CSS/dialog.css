@@ -2,12 +2,12 @@
   padding-top: 100px;
 }
 .dialog1img{
-  width: 759px;
+  width: 100%;
   height: auto;
   margin: auto;
 }
 .dialog2img{
-  width: 759px;
+  width: 100%;
   height: auto;
   margin: auto;
   float: right;
@@ -44,4 +44,45 @@
 .body{
   margin: 0;
   padding: 0;
+}
+
+.dialog-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .dialog-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Első dialógus: Kép 1, Szöveg 1 */
+  .d1left {
+    order: 1;
+  }
+
+  .d1right {
+    order: 2;
+  }
+
+  /* Második dialógus: Kép 2, Szöveg 2 */
+  .d2right {
+    order: 3;
+  }
+
+  .d2left {
+    order: 4;
+  }
+
+  /* Padding és méretek kisebb nézetre */
+  .d1right, .d2left {
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .dialog1img, .dialog2img {
+    width: 100%;
+    height: auto;
+  }
 }
